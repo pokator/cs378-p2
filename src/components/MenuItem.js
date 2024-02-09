@@ -6,11 +6,11 @@ import React from 'react';
 // Use bootstrap to style the elements so that it looks like the mockup in the assignment.
 // Hint: You can use the image name to get the image from the images folder.
 const MenuItem = ({ title, image, description, price }) => {
-    var imagePath = "/images/" + image;
+    var imagePath = "images/" + image;
     return (
         <div className='container main-span'>
             <div className="row padded">
-                <div className='col-5'>
+                <div className='col-5 food-div'>
                     <img src={imagePath} alt="Food" className='food'/>
                 </div>
                 <div className='col-7 right-panel'>

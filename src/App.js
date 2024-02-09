@@ -82,7 +82,9 @@ const menuItems = [
 function App() {
   return (
     <div>
-      <img className="food" src="/images/torikizoku.png" alt="tori logo"/>
+      <div className='top-image-div'>
+          <img className='top-image' src="images/torikizoku.png" alt="tori logo"/>
+      </div>
       <h1 className='main-header'>The Japanese Classic</h1>
       <h2 className='secondary-header'>Serving Japan's finest dishes</h2>
       <div className="menu">
